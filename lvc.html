@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">LVC-FP</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#quem-somos" class="nav-link">
+                            <i class="bi bi-info-circle-fill"></i>
+                            Quem Somos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossos-servicos" class="nav-link">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Nossos Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#modelos" class="nav-link">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Modelos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="quem-somos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img id="foto" src="./imagens/carros/images (9).jpeg" alt="foto do cadillac escalade">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="foto" src="./imagens/carros/1 Cadillac Escalade.webp" alt="foto do cadillac escalade">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="foto" src="./imagens/carros/23_NAV_Sliders_lnc_nav_std_srad_dr34.webp" alt="foto lincoln">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="foto" src="./imagens/carros/2023-Lexus-LX-600.webp" alt="lexus">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/carros/gls63-promo.webp" class="d-block w-100 rounded" alt="gls">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Quem <span class="text-colored">Somos</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi in a suscipit explicabo doloremque unde commodi asperiores. Corporis explicabo tempora at nisi odit laboriosam dolorum, inventore eaque laborum, culpa mollitia!
+                            </p>
+                            <h3 class="section-title">Venda de <span class="text-colored">carros a distancia</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus excepturi culpa similique laudantium magni suscipit quo assumenda, sequi libero temporibus error possimus doloremque, facere sed quibusdam molestias rerum quidem.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossos-servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">Serviços</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/serviços/Curso-de-mecânica-automotiva-990x660-737x491.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Manutenção Preventiva
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos, aliquam voluptatibus, aspernatur labore itaque saepe officia quidem sunt modi repellendus cupiditate eveniet dolorum iusto. Unde inventore odio accusantium perspiciatis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/serviços/manutencao-preventiva-o-que-e-quando-fazer.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Manutenção corretiva
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos, aliquam voluptatibus, aspernatur labore itaque saepe officia quidem sunt modi repellendus cupiditate eveniet dolorum iusto. Unde inventore odio accusantium perspiciatis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/serviços/carro_acidente.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            <i class="bi bi-check-all"></i>
+                            Reparamos carros acidentados
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos, aliquam voluptatibus, aspernatur labore itaque saepe officia quidem sunt modi repellendus cupiditate eveniet dolorum iusto. Unde inventore odio accusantium perspiciatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="modelos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Modelos dos <span class="text-colored"> nossos carros</span></h2>
+                    </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-modelos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-top-de-gama" class="fw-bold text-start nav-link text-colored active">carros top de gama</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-medios" class="fw-bold text-start nav-link text-colored">SUV</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-pequenos" class="fw-bold text-start nav-link text-colored">carros pequenos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#super-luxo" class="fw-bold text-start nav-link text-colored">super luxo</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="carros-top-de-gama">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros top de gama/images (1).jpeg" alt="toyota 300">
+                                        <h5 class="text-colored fw-bold mt-2">Toyota land cruiser 300</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros top de gama/images (2).jpeg" alt="infinity">
+                                        <h5 class="text-colored fw-bold mt-2">Infinity qx80</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros top de gama/images (11).jpeg" alt="lincoln">
+                                        <h5 class="text-colored fw-bold mt-2">Lincoln Navigator</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros top de gama/images (3).jpeg" alt="Nissan">
+                                        <h5 class="text-colored fw-bold mt-2">Nissan patrol</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros top de gama/images (5).jpeg" alt="lx600">
+                                        <h5 class="text-colored fw-bold mt-2">Lexus lx600</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="carros-medios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/images (1).jpeg" alt="volvo">
+                                        <h5 class="text-colored fw-bold mt-2">volvo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/images (2).jpeg" alt="Nissan">
+                                        <h5 class="text-colored fw-bold mt-2">Nissan</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/transferir (4).jpeg" alt="hunday">
+                                        <h5 class="text-colored fw-bold mt-2">Hyndai tucson</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/transferir (5).jpeg" alt="toyota rav-4">
+                                        <h5 class="text-colored fw-bold mt-2">Toyota Rav-4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/transferir (6).jpeg" alt="Toyota Fortuner">
+                                        <h5 class="text-colored fw-bold mt-2">Toyota Fortuner </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/transferir (2).jpeg" alt="jetour x90">
+                                        <h5 class="text-colored fw-bold mt-2">jetour x90</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/carros de tamanho medio/images.jpeg" alt="Kia Sportage">
+                                        <h5 class="text-colored fw-bold mt-2">Kia Sportage</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="carros-pequenos">
+                                <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imagens/Carros pequenos/images (1).jpeg" alt="Toyota Corolla">
+                                            <h5 class="text-colored fw-bold mt-2">Toyota Corolla</h5>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imagens/Carros pequenos/images (3).jpeg" alt="Volkswagen">
+                                            <h5 class="text-colored fw-bold mt-2">Volkswagen</h5>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imagens/Carros pequenos/transferir (10).jpeg" alt="Nissan">
+                                            <h5 class="text-colored fw-bold mt-2">Nissan</h5>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./imagens/Carros pequenos/transferir (9).jpeg" alt="Hyndai Elantra">
+                                            <h5 class="text-colored fw-bold mt-2">Hyndai Elantra</h5>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                            </p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="super-luxo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/super luxo/2022-porsche-cayenne-turbo-gt-exterior-front-quarter.webp" alt="Porche Cayenne">
+                                        <h5 class="text-colored fw-bold mt-2">Porche Cayenne</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/super luxo/a051a32c27bee72c0e005d602545306f.jpg" alt="Rolls-royce Cullinan">
+                                        <h5 class="text-colored fw-bold mt-2">Rolls-royce Cullinan</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/super luxo/exteriorImage.MQ6.12.20190930041400.jpeg" alt="Mercedes-AMG G 63">
+                                        <h5 class="text-colored fw-bold mt-2">Mercedes-AMG G 63</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/super luxo/transferir.jpeg" alt="Audi Q7">
+                                        <h5 class="text-colored fw-bold mt-2">Audi Q7</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/super luxo/X167-Mercedes-Benz-GLS-1-e1555567426205-630x394.webp" alt="Mercedes GLS">
+                                        <h5 class="text-colored fw-bold mt-2">Mercedes GLS</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form >
+                            <div class="mb-3">
+                                <label for="nome" class="from-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nome" class="from-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="from-label fw-bold text-colored">Seu telefone (opicional)</label>
+                                <input type="tell" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="from-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro FP - Luanda
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>

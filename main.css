@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-family: pacifico, cursive;
+}
+
+.navbar {
+    background-color:black;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-modelos .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: black;
+}
+
+
+.section-title span {
+    color: gold;
+}
+
+#foto{
+    width: 100%;
+}
+
+#quem-somos,
+#modelos {
+    background-color:palegoldenrod;
+}
+
+.text-colored {
+    color: gold;
+}
+
+.nav-modelos .nav-link.active,
+#fale-conosco button {
+    background-color: gold;
+    color: #fff;
+}
+
+.nav-modelos .nav-link:hover {
+    color: gold;
+}
+
+.social-links li {
+    list-style:none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+
